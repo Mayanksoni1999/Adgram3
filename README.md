@@ -1,7 +1,5 @@
 # Adgram3
-##################################################################
-#-------------------------------Adgram---------------------------#
-##################################################################
+-------------------------------Adgram---------------------------
 Discription:
 It is an utility app for influencer and adverticer where both can collaborate with each other.The advertiser can choose the right influencer and  the influencer
 also select the best brand to promote.
