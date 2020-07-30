@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/lobster"
+        android:gravity="center_horizontal"
+        android:text="Adgram"
+        android:textColor="#22D2F5"
+        android:textSize="60dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/infubtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFLUENCER"
+        android:padding="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/my_button"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/adverbtn"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button2"
+        android:text="ADVERTISER"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

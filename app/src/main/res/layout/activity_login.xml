@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:scrollbars="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/lobster"
+        android:gravity="center_horizontal"
+        android:text="Adgram"
+        android:textColor="#22D2F5"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/instabtnid"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button3"
+        android:drawableLeft="@drawable/instaicom"
+        android:text="@string/loginwith"
+        android:textAllCaps="false"
+        android:textColor="#4B4D4B"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Or"
+        android:padding="4dp"
+        android:textColor="#090808"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/idtvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/idpasspane"
+        android:padding="10dp"
+        android:text="Email"
+        android:textColor="#6A7568"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pstvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/idpasspane"
+        android:padding="10dp"
+        android:password="true"
+        android:textColor="#616F61"
+        android:textSize="20dp"
+        android:text="Password"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lginbtn"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button"
+
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/signupbtnid"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button3"
+        android:text="Sign Up"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="18sp"
+        android:layout_marginTop="14dp"
+        android:padding="5px"
+        />
+
+</LinearLayout>
+
+</ScrollView>
