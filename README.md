@@ -23,11 +23,3 @@ Contribution:
 Whether you have ideas, translations, design changes, code cleaning, or real heavy code changes, help is always welcome. The more is done the better it gets!
 
 ----------------------------------------------------------------
-
-Installation:
-Go to following link and install the apk file (Adgram.apk).
-https://github.com/Mayanksoni1999/Adgram
-Note:The apk is saparated to make the consistency of the android project uploaded here.
-
-----------------------------------------------------------------
-
